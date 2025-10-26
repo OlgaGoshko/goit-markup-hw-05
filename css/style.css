@@ -395,7 +395,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
   border-radius: 4px;
   padding: 8px 24px;
   min-width: 165px;
@@ -608,6 +607,11 @@ img {
   color: #8e8f99;
 }
 
+.modal-form-message::placeholder {
+  line-height: 2;
+  color: #ffffff;
+}
+
 .modal-form-wrapper {
   position: relative;
 }
@@ -722,7 +726,6 @@ input[type="checkbox"]:checked + .agreement-wrapper > .agreement-checkbox {
 }
 
 .agreement-checkbox-icon {
-  fill: currentColor;
 }
 
 .agreement-wrapper {
